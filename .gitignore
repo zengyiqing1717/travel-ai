@@ -1,0 +1,30 @@
+# Java后端忽略
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.class
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.project
+.c9/
+*.launch
+.settings/
+.factorypath
+.springBeansStashedCache
+
+# 前端H5忽略
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+coverage/
+.env.local
+.env.development
+.env.production
+.cache/
